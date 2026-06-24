@@ -24,5 +24,4 @@ _putchar('\n');
 tour++;
 }
 
-_putchar('\n');
 }
