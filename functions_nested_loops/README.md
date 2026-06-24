@@ -1,0 +1,1 @@
+Ici nous allons voir comment crée nos variable et les boucles imbriquées.
