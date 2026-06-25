@@ -32,7 +32,7 @@ else
 _putchar(' ');
 }
 }
-if (produit > 10)
+if (produit < 10)
 {
 _putchar(produit + '0');
 }
