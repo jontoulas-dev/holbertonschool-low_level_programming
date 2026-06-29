@@ -1,5 +1,9 @@
 Measurement Methodology
 This series of tasks allows us to measure the time a processor takes to execute a program. To achieve this, we utilize the standard <time.h> library, leveraging key elements such as the clock() function, the clock_t data type, and double variables.
+- Clock() : This function returns the number of clock ticks elapsed since the program started. It captures the exact CPU time dedicated to our process.
+- Clock_ :This is the specific data type used to store the raw processor clock ticks returned by clock() at the start and end of the execution.
+- CLOCKS_PER_SEC : This constant defines the number of clock ticks per second for the system, which is crucial for converting raw ticks into actual time.
+- double : This floating-point data type is used to store the final, precise duration in seconds after dividing the elapsed ticks by CLOCKS_PER_SEC.
 
 Observed Performance Differences
 By running the program multiple times, we recorded three distinct execution times: 0.123762 seconds, 0.130857 seconds, and 0.133403 seconds. These variations clearly demonstrate that runtime is not static; it fluctuates due to external factors such as operating system overhead, CPU scheduling, and cache memory management. Therefore, calculating an average of these trials is essential to obtain a reliable and representative baseline.
