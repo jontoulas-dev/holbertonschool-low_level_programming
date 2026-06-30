@@ -8,9 +8,6 @@
 int main(void)
 {
 	int choice = 1;
-	int A = 0;
-	int B = 0;
-	int result = 0;
 
 	printf("Simple Calculator\n");
 	while (choice != 0)
