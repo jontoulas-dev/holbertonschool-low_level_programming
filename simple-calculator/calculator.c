@@ -11,7 +11,7 @@ printf("Simple Calculator\n");
 
 while (choice != 0)
 {
-printf("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit");
+printf("1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit\n");
 printf("choice ?\n");
 scanf("%d", &choice);
 if (choice == 0)
