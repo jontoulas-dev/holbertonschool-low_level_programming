@@ -21,7 +21,7 @@ i = longueur / 2;
 }
 else
 {
-i = (longueur - 1) / 2;
+i = (longueur + 1) / 2;
 }
 while (str[i] != '\0')
 {
