@@ -19,4 +19,5 @@ if (choice == 0)
 printf("Bye !");
 }
 }
+return(0);
 }
