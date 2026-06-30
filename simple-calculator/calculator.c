@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(void)
@@ -16,7 +17,7 @@ printf("Choice ?\n");
 scanf("%d", &choice);
 if (choice == 0)
 {
-printf("Bye !");
+printf("Bye!");
 }
 }
 return(0);
