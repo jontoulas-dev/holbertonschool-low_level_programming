@@ -16,6 +16,6 @@ printf("choice ?\n");
 scanf("%d", &choice);
 if (choice == 0)
 {
-printf('Bye !');
+printf("Bye !");
 }
 }
