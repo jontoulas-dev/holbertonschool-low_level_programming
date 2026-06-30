@@ -15,17 +15,17 @@ while (str[longueur] != '\0')
 longueur++;
 }
 
-if (i % 2 == 0)
+if (longueur % 2 == 0)
 {
 i = longueur / 2;
 }
 else
 {
-i = (longueur + 1) / 2;
+i = (longueur - 1) / 2;
 }
 while (str[i] != '\0')
 {
-_putchar(str[i] != '\0');
+_putchar(str[i]);
 i++;
 }
 _putchar('\n');
