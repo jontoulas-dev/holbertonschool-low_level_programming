@@ -16,8 +16,8 @@ A key limitation of this experiment is hardware dependency. The benchmarks obtai
 
 Practical Engineering Takeaway
 To conclude, I would say that we must try to design the most efficient algorithms possible for a fast response and lower consumption. The final task allows us to see where the responses are the slowest, which is a plus for understanding the machine and being able to optimize it as well as improve its algorithms. For this exercise, we used 3 data components, which are executed in this order: BUILD_DATA (initialization) which corresponds to the RAM, PROCESS (computation) which indicates the algorithmic efficiency or the processor power, and REDUCE (the result) for data centralization. The results I obtained are the following:
-TOTAL =  0.000605 seconds
-BUILD_DATA = 0.000277 seconds
-PROCESS = 0.000224 seconds
-REDUCE = 0.000101 seconds
+- TOTAL =  0.000605 seconds
+- BUILD_DATA = 0.000277 seconds
+- PROCESS = 0.000224 seconds
+- REDUCE = 0.000101 seconds
 Based on these results, it is clear that BUILD_DATA and PROCESS are the two most resource-intensive stages, accounting for over 82% of the total runtime. Consequently, these are the two priority areas to optimize in order to improve overall efficiency and reduce energy consumption.
